@@ -1,0 +1,11 @@
+# Machine-local fragments rendered by bin/generate.sh (never committed;
+# they hold hardware-specific paths detected per machine).
+**/temperature.json
+
+# Editor / OS cruft
+*.bak
+*.swp
+*~
+
+# Stow backups created during setup
+.stow-backup-*/

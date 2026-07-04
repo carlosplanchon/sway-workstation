@@ -1,0 +1,17 @@
+{
+    "temperature": {
+      "hwmon-path-abs": "${HWMON_PATH_ABS}",
+      "input-filename": "${HWMON_INPUT}",
+      "critical-threshold": 80,
+      "interval": 5,
+      "format": "{icon}  {temperatureC}°C",
+      "format-icons": [
+          "", // Icon: temperature-empty
+          "", // Icon: temperature-quarter
+          "", // Icon: temperature-half
+          "", // Icon: temperature-three-quarters
+          ""  // Icon: temperature-full
+      ],
+      "tooltip": true
+    }
+}
