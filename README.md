@@ -147,5 +147,7 @@ workstation:
 Both are optional and one command each: `zsh-classic-stack` diagnoses and
 wires the shell (its `install.sh` can migrate a whole `~/.zshrc` off
 oh-my-zsh/p10k, with backup), and the preset installer themes Starship.
+Recommended order: the stack first, then the preset; the stack's README
+has both commands.
 Same philosophy as here: reversible, no hidden steps, nothing overwritten
 without a timestamped backup.
