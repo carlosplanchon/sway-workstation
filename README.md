@@ -131,3 +131,21 @@ The generated fragment lives in `~/.config` (outside the repo) and is
   re-applied on every reload; toggle with `$mod+n` (latam) / `$mod+m` (us).
 - **Fonts**: `cantarell-fonts` + `otf-font-awesome` + `ttf-nerd-fonts-symbols`.
   If glyphs render as boxes, check the family names in `style.css`.
+
+## Related
+
+This repo stops at the terminal emulator. What runs inside it has its own
+layers, one repo each, and they compose into a full terminal-first
+workstation:
+
+| Layer | Repo |
+| --- | --- |
+| Desktop, bar, hardware detection, keybindings | this repo |
+| The interactive zsh experience (fzf, zoxide, plugins) | [zsh-classic-stack](https://github.com/carlosplanchon/zsh-classic-stack) |
+| The prompt (Powerlevel10k rainbow look on Starship) | [starship-p10k-rainbow](https://github.com/carlosplanchon/starship-p10k-rainbow) |
+
+Both are optional and one command each: `zsh-classic-stack` diagnoses and
+wires the shell (its `install.sh` can migrate a whole `~/.zshrc` off
+oh-my-zsh/p10k, with backup), and the preset installer themes Starship.
+Same philosophy as here: reversible, no hidden steps, nothing overwritten
+without a timestamped backup.
