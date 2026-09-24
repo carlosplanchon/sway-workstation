@@ -151,3 +151,9 @@ Recommended order: the stack first, then the preset; the stack's README
 has both commands.
 Same philosophy as here: reversible, no hidden steps, nothing overwritten
 without a timestamped backup.
+
+### Built on this
+
+- [sway-deere](https://github.com/gauchitodev/sway-deere) by gauchitodev:
+  a John Deere G5 CommandCenter-style theme layered on top of this repo
+  (bar, colors, touch home screen).
