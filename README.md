@@ -154,6 +154,6 @@ without a timestamped backup.
 
 ### Built on this
 
-- [sway-deere](https://github.com/gauchitodev/sway-deere) by gauchitodev:
+- [sway-deere](https://github.com/gauchitodev/sway-deere) by [gauchitodev](https://github.com/gauchitodev):
   a John Deere G5 CommandCenter-style theme layered on top of this repo
   (bar, colors, touch home screen).
